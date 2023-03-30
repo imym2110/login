@@ -1,0 +1,10 @@
+<section>
+    <h1>LOGIN</h1>
+  <form [formGroup]="loginform" class="login-form" (ngSubmit)="onSubmit()">
+    <input type="text" id="email" placeholder="Username" class="login-details" formControlName="identifier"><br><br>
+    <input type="password" id="password" placeholder="password" class="login-details" formControlName="password">
+    <p>complete the form to enable the button</p>
+    <button type="submit" class="login-submit">LOGIN</button>
+  </form>
+    
+</section>
